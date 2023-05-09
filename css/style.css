@@ -1,0 +1,1380 @@
+@font-face {
+    font-family: 'Constantia';
+    src: url(../font/Constain/Fonts/constan.ttf);
+}
+
+@font-face {
+    font-family: 'Constantia-bold';
+    src: url(../font/Constain/Fonts/constanb.ttf);
+}
+
+.sec-bg-header22 {
+    background-color: #1F1A17;
+    padding: 10px;
+}
+
+.sec-logo222 {
+    margin-bottom: -42px;
+    z-index: 999;
+    position: relative;
+    width: 90%;
+}
+
+a.nav-link.text-light {
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 81%;
+}
+
+.navbar-dark .navbar-brand {
+    color: #fff;
+    width: 21% !important;
+}
+
+a.btn.sec-menu-btn.my-2.my-sm-0,
+.sec-menu-btn2 {
+    background: linear-gradient(270deg, #DD127B 0.84%, #85C226 100%);
+    font-family: 'Nunito';
+    font-style: normal;
+    border: 0;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    border-radius: 0;
+    padding: 15px 30px;
+}
+
+a.btn.sec-menu-btn.my-2.my-sm-0:hover,
+.sec-menu-btn2:hover {
+    background: linear-gradient(270deg, #85C226 0.84%, #DD127B 100%);
+}
+
+.sec-icon {
+    font-size: 22px;
+    background: linear-gradient(180deg, #DD127B 0%, #85C226 100%);
+    border-radius: 26px;
+    padding: 9px 14px !important;
+    display: inline-grid;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+}
+
+.sec-icon:hover {
+    background: linear-gradient(180deg, #85C226 0%, #DD127B 100%);
+    text-decoration: none;
+}
+
+.sec-hero-img {
+    background-image: url(../images/SLIDE_01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 160px 30px;
+}
+
+.sec-hero-tex {
+    font-family: 'Constantia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 106px;
+    color: #1F1A17;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.sec-hero-tex2 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    color: #1F1A17;
+}
+
+.sec-crea-img {
+    background-image: url(../images/Fabulous.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 60px 0px;
+}
+
+.sec-h-creat {
+    font-family: 'Constantia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 68px;
+    color: #000000;
+}
+
+.sec-h-creat2 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.counter-count {
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 73px;
+    color: #000000;
+}
+
+.sec-counter-p {
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 98.6%;
+    color: #000000;
+    padding-top: 13px;
+
+}
+
+.sec-servi-img {
+    background-image: url(../images/Services.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding-bottom: 70px;
+}
+
+.services-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 20px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.67), rgba(0, 0, 0, 0.67)), url(../images/ser1.png);
+    border: 2px solid #fff;
+}
+
+.services-img2 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 20px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.67), rgba(0, 0, 0, 0.67)), url(../images/ser2.png);
+    border: 2px solid #fff;
+}
+
+.services-img3 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 20px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.67), rgba(0, 0, 0, 0.67)), url(../images/ser3.png);
+    border: 2px solid #fff;
+}
+
+/* -------------hover---------------- */
+.services-img:hover {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(../images/ser1.png);
+    border: 2px solid #85C226;
+    padding: 150px 20px;
+}
+
+.services-img2:hover {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(../images/ser2.png);
+    border: 2px solid #85C226;
+    padding: 150px 20px;
+}
+
+.services-img3:hover {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(../images/ser3.png);
+    border: 2px solid #85C226;
+    padding: 150px 20px;
+}
+
+/*------------------ hover----------- */
+
+.services-img h1,
+.services-img2 h1,
+.services-img3 h1 {
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 97px;
+    text-align: center;
+    background: linear-gradient(180deg, #DD127B 0%, #85C226 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.services-img h3,
+.services-img2 h3,
+.services-img3 h3 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.services-img p,
+.services-img2 p,
+.services-img3 p {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+
+/* ---------------hover----------------- */
+.services-img:hover h3,
+.services-img2:hover h3,
+.services-img3:hover h3 {
+
+    color: #000;
+}
+
+.services-img:hover p,
+.services-img2:hover p,
+.services-img3:hover p {
+
+    color: #000;
+}
+
+.sec-ser-2-bg {
+    padding-bottom: 60px;
+}
+
+.sec-acad-bg {
+    background: rgba(221, 18, 123, 0.1);
+    padding: 60px 0px;
+}
+
+.sec-h-acd {
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 110.1%;
+    text-align: center;
+    color: #000000;
+    padding-top: 30px;
+}
+
+.sec-h-acd2 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 153.4%;
+    text-align: center;
+    color: #000000;
+    padding-top: 30px;
+}
+
+.sec-acd-logo-bg {
+    display: inline-grid;
+    align-content: center;
+}
+
+.sec-world-bg {
+    background-image: url(../images/Brightening.png);
+    background-repeat: no-repeat;
+    background-position: top left 10px;
+    background-size: inherit;
+    padding: 60px 0px;
+
+}
+
+.sec-word-h {
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: #DD127B;
+}
+
+.sec-word-h2 {
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 110.1%;
+    text-align: center;
+    color: #000000;
+    padding-top: 20px;
+}
+
+.sec-galler-img {
+    background-image: url(../images/Gallery.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding-bottom: 70px;
+}
+
+.sec-popu-img {
+    border-radius: 50%;
+    width: 65%;
+}
+
+.ser-pou-p1 {
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 110.1%;
+    color: #000000;
+    display: inline-block;
+    position: relative;
+}
+
+.ser-pou-p1::before {
+    content: "";
+    position: absolute;
+    background-image: url(../images/Line\ 1.png);
+    background-repeat: repeat-x;
+    width: 70px;
+    height: 5px;
+    background-size: auto;
+    right: -90px;
+    top: 5px;
+    bottom: 0px;
+    margin: auto;
+}
+
+.ser-pou-p2 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 34px;
+    color: #000000;
+}
+
+.sec-popl-d {
+    display: inline-grid;
+    align-content: center;
+}
+
+.sec-pop-pp3 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+
+}
+
+/* ----------------Testimonials--------------- */
+
+
+
+
+#testimonial4 .carousel-inner:hover {
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+}
+
+#testimonial4 .carousel-inner:active {
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+}
+
+#testimonial4 .carousel-inner .item {
+    overflow: hidden;
+}
+
+.testimonial4_indicators .carousel-indicators {
+    left: 0;
+    margin: 0;
+    width: 100%;
+    font-size: 0;
+    height: 20px;
+    bottom: 15px;
+    padding: 0 5px;
+    cursor: e-resize;
+    overflow-x: auto;
+    overflow-y: hidden;
+    position: absolute;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.testimonial4_indicators .carousel-indicators li {
+    padding: 0;
+    width: 14px;
+    height: 14px;
+    border: none;
+    text-indent: 0;
+    margin: 2px 3px;
+    cursor: pointer;
+    display: inline-block;
+    background: #000;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+}
+
+.testimonial4_indicators .carousel-indicators .active {
+    padding: 0;
+    width: 14px;
+    height: 14px;
+    border: none;
+    margin: 2px 3px;
+    background-color: #9dd3af;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+}
+
+.testimonial4_indicators .carousel-indicators::-webkit-scrollbar {
+    height: 3px;
+}
+
+.testimonial4_indicators .carousel-indicators::-webkit-scrollbar-thumb {
+    background: #000;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+}
+
+.testimonial4_control_button .carousel-control {
+    top: 175px;
+    opacity: 1;
+    width: 40px;
+    bottom: auto;
+    height: 40px;
+    font-size: 10px;
+    cursor: pointer;
+    font-weight: 700;
+    overflow: hidden;
+    line-height: 38px;
+    text-shadow: none;
+    text-align: center;
+    position: absolute;
+    background: transparent;
+    border: 2px solid #000;
+    text-transform: uppercase;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: all 0.6s cubic-bezier(0.3, 1, 0, 1);
+    transition: all 0.6s cubic-bezier(0.3, 1, 0, 1);
+}
+
+.testimonial4_control_button .carousel-control.left {
+    left: 7%;
+    top: 50%;
+    right: auto;
+}
+
+.testimonial4_control_button .carousel-control.right {
+    right: 7%;
+    top: 50%;
+    left: auto;
+}
+
+.testimonial4_control_button .carousel-control.left:hover,
+.testimonial4_control_button .carousel-control.right:hover {
+    color: #000;
+    background: #000;
+    border: 2px solid #000;
+}
+
+.testimonial4_header {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 550px;
+    display: block;
+    margin: 30px auto;
+    text-align: center;
+    position: relative;
+}
+
+.testimonial4_header h4 {
+    color: #000;
+    font-size: 30px;
+    font-weight: 600;
+    position: relative;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.testimonial4_slide {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.testimonial4_slide img {
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 136px;
+    height: 136px;
+    margin: auto;
+    display: block;
+    color: #000;
+    font-size: 18px;
+    line-height: 46px;
+    text-align: center;
+    position: relative;
+    border-radius: 50%;
+    box-shadow: -6px 6px 6px rgba(0, 0, 0, 0.23);
+    -moz-box-shadow: -6px 6px 6px rgba(0, 0, 0, 0.23);
+    -o-box-shadow: -6px 6px 6px rgba(0, 0, 0, 0.23);
+    -webkit-box-shadow: -6px 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.testimonial4_slide p {
+    color: #000;
+    font-family: 'Cormorant';
+    font-size: 30px;
+    line-height: 1.4;
+    margin: 40px 0 20px 0;
+}
+
+.testimonial4_slide h4 {
+    color: #000;
+    font-size: 22px;
+}
+
+.testimonial .carousel {
+    padding-bottom: 50px;
+}
+
+.testimonial .carousel-control-next-icon,
+.testimonial .carousel-control-prev-icon {
+    width: 35px;
+    height: 35px;
+    background-color: #000;
+}
+
+/* ------testimonial  close-------*/
+
+.sec-bol-h {
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 110.1%;
+    color: #000000;
+    padding-top: 10px;
+}
+
+.sec-date-p {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.sec-blog-img {
+    height: 360px;
+}
+
+.footer-subsc {
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 110.1%;
+    color: #000000;
+    float: right;
+}
+
+
+.footer-formwrap {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+
+.footer-formwrap .sec-btn-what2 {
+    padding-top: 0px;
+}
+
+.footer-formwrap .form-group.p-0 {
+    margin: 0px;
+    width: 450px !important;
+}
+
+.footer-formwrap .sec-but-4 {
+    padding: 15px 30px;
+    background: linear-gradient(270deg, #DD127B 0.84%, #85C226 100%);
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+input#exampleInputEmail12 {
+    border-radius: 0px;
+    padding: 26px 30px !important;
+    border-bottom: 1px solid #aaa;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.sec-footer-img {
+    background: #000000;
+    background-image: url(../images/footer-img.png);
+    background-repeat: no-repeat;
+    background-position: bottom left 10px;
+    background-size: inherit;
+    padding: 40px 0px;
+}
+
+.sec-foot-p {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 153.4%;
+    text-align: center;
+    color: #D9D9D9;
+    padding-top: 30px;
+
+}
+
+#sec-footer-menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.sec-foot-c {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 153.4%;
+    text-align: center;
+    color: #D9D9D9;
+    word-break: break-all;
+}
+
+.sec-foot-c:hover {
+
+    color: #D9D9D9;
+    text-decoration: none;
+}
+
+.sec-fooer-border {
+    border-top: 1px solid #404040;
+}
+
+/* ------about----------- */
+
+.sec-about-bgg {
+    background-image: url(../images/about-hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0px;
+
+}
+
+.sec-fran-bgg,
+.sec-about-bgg,
+.sec-acde-bgg {
+    height: 570px !important;
+}
+
+.sec-about-bgg22 {
+    padding: 80px 0px;
+}
+
+.ab-sec-p {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+
+.ab-sec-p2 {
+    font-family: 'Constantia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 80px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.sec-tex-p {
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.sec-abu-p2 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 180%;
+    color: #000000;
+}
+
+.sec-founders-bg {
+    background: #F7E2DA;
+    background-image: url(../images/about-color-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0px 75px 0px;
+}
+
+.sec-found-h {
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 97px;
+    text-align: center;
+    color: #000000;
+    padding: 15px 0px 50px 0px;
+}
+
+.sec-found-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sec-found-name {
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 153.6%;
+    text-align: center;
+    color: #000000;
+}
+
+.sec-found-post {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 180%;
+    text-align: center;
+    color: #000000;
+}
+
+.sec-icon2 {
+    font-size: 25px;
+    background: linear-gradient(180deg, #DD127B 0%, #85C226 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
+
+}
+
+.sec-val-bg {
+    padding: 80px 0px;
+    margin: auto !important;
+}
+
+.sec-val-pp {
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 153.6%;
+    text-align: center;
+    color: #000000;
+    padding-top: 20px;
+
+}
+
+.sec-val-deap {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+}
+
+.sec-next-bg {
+    background: #FCE7F2;
+    background-image: url(../images/about-logo.png);
+    background-repeat: no-repeat;
+    padding: 90px 0px 330px 0px;
+    position: relative;
+    background-position: center;
+}
+
+.sec-nex-h {
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 97px;
+    text-align: center;
+    color: #000000;
+}
+
+.sec-next-bg2 {
+    background: #F5F5F5;
+}
+
+.sec-next-ppp {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 180%;
+    text-align: center;
+    color: #000000;
+    width: 70%;
+    padding-bottom: 60px;
+    margin: auto;
+}
+
+.sec-next-margin {
+    margin-top: -286px;
+    position: relative;
+
+}
+
+
+
+/* -------------Services-page----------------- */
+.sec-come-h {
+    font-family: 'Constantia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 101px;
+    text-align: center;
+    color: #000000;
+    padding: 100px 0px 50px 0px;
+}
+
+.sec-btn-margin {
+    margin-top: 21px;
+}
+
+label {
+    font-family: 'Constantia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.form-control {
+    font-family: 'Nunito' !important;
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    line-height: 25px !important;
+    color: #000000 !important;
+}
+
+.sec-ser-hh {
+    font-family: 'Constantia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 40px;
+    text-align: center;
+    color: #000000;
+}
+
+.sec-erv-book {
+    padding: 60px 0px;
+}
+
+.sec-bord-serv {
+    border-bottom: 1px solid #DCDCDC;
+    padding: 20px 0px 0px 0px;
+}
+
+.sec-sev-book-h {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 367.5%;
+    color: #000000;
+    margin: 0;
+}
+
+.sec-sev-book-p {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 368%;
+    margin: 0;
+    text-align: center;
+    color: #898989;
+}
+
+.sec-menu-btn22 {
+    background: linear-gradient(270deg, #DD127B 0.84%, #85C226 100%);
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 0;
+    border: 0;
+    padding: 15px 30px;
+}
+
+.sec-menu-btn22:hover {
+    background: linear-gradient(270deg, #85C226 0.84%, #DD127B 100%);
+    color: #fff !important;
+}
+
+.sec-bord-serv2 {
+    border-bottom: 1px solid #DCDCDC;
+    padding-top: 5px;
+}
+
+/* ---------------Franchise-page-------------------- */
+.sec-fran-bgg {
+    background-image: url(../images/Franchise-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0px;
+}
+
+.sec-will-bg {
+    background-image: url(../images/wil-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0px;
+}
+
+.sec-wil-p {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.sec-wil-h {
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 118.6%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.sec-wil-p2 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 158%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.sec-will-bg2 {
+    padding-bottom: 50px;
+}
+
+.sec-will-hfor {
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 97px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 30px;
+
+}
+
+.sec-padi-wil {
+    background: linear-gradient(180deg, #DD127B 0%, #85C226 100%);
+    border-radius: 50%;
+    padding: 57px 66px;
+    border: 10px solid #FFFFFF;
+    box-shadow: 0px 0px 27px rgba(0, 0, 0, 0.25);
+    height: 467px;
+
+}
+
+.sec-does-h {
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 153.6%;
+    text-align: center;
+    color: #000000;
+}
+
+.sec-does-p {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 158%;
+    text-align: center;
+    color: #000000;
+
+}
+
+.sec-usp-bgg {
+    background: #F7E2DA;
+    padding: 60px 0px;
+}
+
+.sec-usp-pp {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 180%;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 30px;
+}
+
+.sec-slider-pp {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    color: #000000;
+}
+
+.sec-slider-margin-pp {
+    margin-left: -106px;
+    position: relative;
+    z-index: 999;
+}
+
+.nav-pills .nav-link,
+.nav-pills .show>.nav-link {
+    font-family: 'Nunito' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 20px !important;
+    line-height: 25px !important;
+    color: #000000 !important;
+
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #fff;
+    background: linear-gradient(270deg, #DD127B 0.84%, #85C226 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
+
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #DD127B !important;
+}
+
+.secall-ppp {
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 58px;
+    text-align: center;
+    color: #000000;
+    padding: 50px 0px;
+}
+
+.sec-madal-pad {
+    margin: 10px !important;
+}
+
+.sec-you-h {
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 97px;
+    color: #000000;
+}
+
+.sec-you-p {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 180%;
+    color: #000000;
+}
+
+.sec-dil-bg {
+    padding: 60px 0px;
+    background: linear-gradient(180deg, #DD127B 0%, #85C226 100%);
+    margin-top: 200px;
+}
+
+.sed-dil-img {
+    margin-top: -180px;
+}
+
+.sec-dil-h {
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 145px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.sec-dil-p {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 159%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.sec-dil-btn {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #000000;
+    background: #FFFFFF;
+    padding: 10px 30px;
+    border: 1px solid #fff;
+}
+
+.sec-dil-btn:hover {
+    background: linear-gradient(180deg, #DD127B 0%, #85C226 100%);
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.sec-menu-btn2:hover {
+    color: #fff !important;
+}
+
+.modal-title {
+    margin-bottom: 0;
+    line-height: 1.5;
+    font-family: 'Nunito' !important;
+    font-style: normal;
+    font-weight: 700;
+    color: #000;
+    font-size: 27px !important;
+}
+
+/* ----------Academy----------- */
+
+.sec-acde-bgg {
+    background-image: url(../images/Academy-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0px;
+}
+
+
+/* ------------Careers------------ */
+
+.sec-caree-hh {
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 97px;
+    text-align: center;
+    color: #000000;
+}
+
+
+
+
+/* ------contact---------- */
+
+.sec-contact-bg {
+    background: #FFF9F0;
+    background-image: url(../images/about-logo.png);
+    background-repeat: no-repeat;
+    padding: 90px 0px 365px 0px;
+    position: relative;
+    background-position: center;
+}
+
+
+
+.sec-contat-icon22 {
+    padding: 30px 40px !important;
+    border: 1px solid #000;
+    border-radius: 50%;
+    font-size: 45px;
+    color: #fff;
+    background: linear-gradient(180deg, #DD127B 0%, #85C226 100%);
+
+
+}
+
+.sec-contat-icon22:hover {
+    padding: 30px 40px !important;
+    border: 1px solid #000;
+    border-radius: 50%;
+    font-size: 45px;
+    color: #fff !important;
+    background: linear-gradient(270deg, #DD127B 0.84%, #85C226 100%);
+
+}
+
+.sec-icon-cc:hover {
+    color: #fff !important;
+}
+
+.secon-cont-h {
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 150%;
+    text-align: center;
+    color: #000000;
+}
+
+.secon-cont-p {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #000000;
+}
+
+.sec-drop-h {
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 97px;
+    text-align: center;
+    color: #000000;
+}
+
+.sec-drop-p {
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 150%;
+    text-align: center;
+    color: #000000;
+}
+
+.sec-contact-form {
+    width: 75%;
+    margin: auto;
+}
+
+.sec-offers-h {
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 110.1%;
+    text-align: center;
+    color: #000000;
+}
+
+.sec-found-img22 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90px;
+}
+
+.sec-ifram-ff {
+    width: 80%;
+    height: 450px;
+}
+
+.sec-menu-btn-blog {
+    background: linear-gradient(270deg, #DD127B 0.84%, #85C226 100%);
+    font-family: 'Nunito';
+    font-style: normal;
+    border: 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+    border-radius: 0;
+    padding: 2px 15px;
+}
+
+/* blog */
+.sec-next-ppp2 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 180%;
+    color: #000000;
+    width: 90%;
+    padding-left: 150px;
+
+}
+
+.sec-next-ppp22 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 150%;
+    color: #000000;
+    padding-left: 150px;
+}

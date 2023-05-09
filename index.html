@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <!-- Nunito -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Cormorant -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cousine:ital,wght@0,400;0,700;1,400&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Lobster -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cousine:ital,wght@0,400;0,700;1,400&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lobster&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link rel="icon" href="images/header-logo.png">
+    <title>Fabulous Salone You Imagine We Create</title>
+</head>
+
+<body>
+    <!-- header- start -->
+    <div class="container-fluid  sec-bg-header22 ">
+        <div class="container">
+            <nav class=" navbar navbar-expand-lg navbar-dark d-flex justify-content">
+                <a class="navbar-brand" href="index.html"><img class=" sec-logo222  " src="images/header-logo.png"
+                        alt=""></a>
+                <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul id="menu-main-menu" class="navbar-nav ">
+                        <li class=" nav-item pl-2 pt-2">
+                            <a class="nav-link text-light  " href="about.html">About </a>
+                        </li>
+                        <li class="nav-item pl-2 pt-2">
+                            <a class="nav-link text-light " href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item pl-2 pt-2">
+                            <a class="nav-link text-light  " href="franchise.html">Franchise</a>
+                        </li>
+                        <li class="nav-item pl-2 pt-2 ">
+                            <a class="nav-link text-light " href="academy.html">Academy</a>
+                        </li>
+                        <li class="nav-item pl-2 pt-2">
+                            <a class="nav-link text-light  " href="career.html">Career</a>
+                        </li>
+                        <li class="nav-item pl-2 pt-2">
+                            <a class="nav-link text-light " href="gift-card.html">Gift Card</a>
+                        </li>
+                        <li class="nav-item pl-2 pt-2">
+                            <a class="nav-link text-light " href="contacts.html">Contacts</a>
+                        </li>
+                        <li class="nav-item  pt-2">
+                            <a class="nav-link text-light " href="offers.html">Offers</a>
+                        </li>
+                        <li class="nav-item pl-2 pr-2 pt-1  sec-displ-li">
+                            <div class=" text-center">
+                                <a href="https://www.facebook.com/Fabulous.Salon.India/" target="_blank"
+                                    class="text-light sec-icon pl-4"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="https://www.instagram.com/fabulous.salon.india/" target="_blank"
+                                    class="text-light sec-icon pl-4"><i class="fa-brands fa-instagram"></i></a>
+                                <!-- <a href="#" class="text-light sec-icon pl-4"><i class="fa-brands fa-twitter"></i></a> -->
+
+                            </div>
+                        </li>
+                        <li class=" sec-displ-li">
+                            <a href="https://app.13designstreet.com/fabulous_salon/qr/index.php?branch_id=UzN4eE9JUEUzaUltOERvTTJKVVNGUT09"
+                                target="_blank" class="btn sec-menu-btn  my-2 my-sm-0" type="submit">Book Appointment
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- header- end -->
+
+    <!-- hero -->
+    <div class="container-fluid   sec-hero-img">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1 class="sec-hero-tex">Fashion with <br>
+                        care.</h1>
+                    <p class="sec-hero-tex2">Best quality. Creative color style. Always in trend. </p>
+
+                    <div class="row">
+                        <div class="col-lg-5  sec-book-hero pt-4">
+                            <a href="https://app.13designstreet.com/fabulous_salon/qr/index.php?branch_id=UzN4eE9JUEUzaUltOERvTTJKVVNGUT09"
+                                target="_blank" class="btn sec-menu-btn  my-2 my-sm-0" type="submit">Book Appointment <i
+                                    class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                        <div class="col-lg-6  pt-4 sec-book-hero">
+                            <a href="/services.html" class="btn sec-menu-btn  my-2 my-sm-0" type="submit">View Service
+                                Menu <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Creative -->
+    <div class="container-fluid sec-crea-img">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1 class="sec-h-creat">Creative salon with masterly
+                        performance of services </h1>
+                    <p class="sec-h-creat2">Fabulous salon is a premium beauty salon for men and women who desire to
+                        look
+                        the best every day. Getting a makeover not only changes the appearance of a person
+                        but also brings back the lost confidence and Fabulous salon would take pride in being
+                        a part of it. .</p>
+
+
+                    <!-- Content-->
+                    <div class="counter pt-4">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 col-lg-5">
+                                    <div class="count-up">
+                                        <div class="row">
+                                            <div class="col-lg-3 p-0">
+                                                <p class="counter-count">18</p>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <h3 class="sec-counter-p">Professional
+                                                    masters</h3>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-lg-6">
+                                    <div class="count-up">
+                                        <div class="row">
+                                            <div class="col-lg-5">
+                                                <p class="counter-count   sec-count-2-text">1000</p>
+
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <h3 class="sec-counter-p">Happy<br>
+                                                    Customers</h3>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img class="w-100" src="images/two-girls.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services -->
+    <div class="container-fluid sec-servi-img">
+        <div class="container sec-ser-padin pt-5">
+            <h1 class="sec-h-creat text-center">What our magicians can<br>
+                do for you</h1>
+        </div>
+    </div>
+
+    <!-- Services-2 -->
+    <div class="container sec-ser-2-bg">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="services-img text-center">
+                    <h1>Beautiful</h1>
+                    <h3>Skin</h3>
+                    <p>skin • be beautiful</p>
+                    <a href="#" class="btn sec-menu-btn  my-2 my-sm-0" type="submit">Learn More <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+            </div>
+            <div class="col-lg-4">
+                <div class="services-img2 text-center">
+                    <h1>Stylish</h1>
+                    <h3>Hair Styles</h3>
+                    <p>Experts • innovations</p>
+                    <a href="#" class="btn sec-menu-btn  my-2 my-sm-0" type="submit">Learn More <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="services-img3 text-center">
+                    <h1>Lovely</h1>
+                    <h3>BRIDAL MAKEUP</h3>
+                    <p>Products • New Trends</p>
+                    <a href="#" class="btn sec-menu-btn  my-2 my-sm-0" type="submit">Learn More <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Academy Courses -->
+    <div class="container-fluid sec-acad-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img class="w-100" src="images/act-1.png" alt="">
+                </div>
+                <div class="col-lg-6 sec-acd-logo-bg">
+                    <img class="w-100" src="images/Academy-logo.png" alt="">
+                    <h1 class="sec-h-acd">Academy Courses</h1>
+                    <p class="sec-h-acd2">FABULOUSs Institut is India’s finest, professionally managed beauty training
+                        institute by fabulous India. It caters to the needs of the country’s rapidly growing demand for professional hair care,
+                        make-up and beauty therapy, with a range of courses for young men and women.</p>
+                    <div class="text-center sec-ser-padin pt-5">
+                        <a href="https://app.13designstreet.com/fabulous_salon/qr/index.php?branch_id=UzN4eE9JUEUzaUltOERvTTJKVVNGUT09"
+                            target="_blank" class="btn sec-menu-btn  my-2 my-sm-0" type="submit">Book Appointment <i
+                                class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- World’s No.1  -->
+    <div class="container-fluid sec-world-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 sec-acd-logo-bg">
+                    <h2 class="sec-word-h">World’s No.1<br>
+                        Brightening & Waxing Service</h2>
+                    <h3 class="sec-word-h2">Get The Painless & Smooth Look You Want</h3>
+                    <div class="text-center sec-ser-padin pt-5">
+                        <a href="https://app.13designstreet.com/fabulous_salon/qr/index.php?branch_id=UzN4eE9JUEUzaUltOERvTTJKVVNGUT09"
+                            target="_blank" class="btn sec-menu-btn  my-2 my-sm-0" type="submit">Book Appointment <i
+                                class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img class="w-100" src="images/Brightening-1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- gallery -->
+    <div class="container-fluid sec-galler-img">
+        <div class="container sec-ser-padin pt-5">
+            <h1 class="sec-h-creat text-center">Have a Look</h1>
+        </div>
+    </div>
+    <!-- gallery-2 -->
+    <div class="container sec-ser-padin  pb-5">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="w-100" src="images/slid-1.png" alt="">
+            </div>
+            <div class="item">
+                <img class="w-100" src="images/slid-2.png" alt="">
+            </div>
+            <div class="item">
+                <img class="w-100" src="images/slid-3.png" alt="">
+            </div>
+            <div class="item">
+                <img class="w-100" src="images/slid-4.png" alt="">
+            </div>
+
+        </div>
+
+        <div class="text-center sec-ser-padin pt-5">
+            <a href="#" class="btn sec-menu-btn  my-2 my-sm-0" type="submit">View All <i
+                    class="fa-solid fa-arrow-right"></i></a>
+        </div>
+    </div>
+
+    <!-- Popular & Trending Offers -->
+
+    <div class="container">
+        <h3 class="sec-word-h2">Popular & Trending Offers</h3>
+        <div class="row  sec-ser-padin pt-5 pb-5">
+            <div class="col-lg-6">
+                <!-- 1 -->
+                <div class="row pb-4">
+                    <div class="col-lg-3 col-md-6  text-center">
+                        <img class=" sec-popu-img" src="images/pu-1.png" alt="">
+                    </div>
+                    <div class="col-lg-9 col-md-6 sec-popl-d">
+                        <div class="row ">
+                            <div class="col-lg-9">
+                                <p class="ser-pou-p1">Bridal Makeup</p>
+                            </div>
+                            <div class="col-lg-3 sec-popl-d">
+                                <p class="ser-pou-p2">₹ 800.00</p>
+                            </div>
+                        </div>
+                        <p class="sec-pop-pp3">In nec faucibus sem, eu accumsan massa</p>
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div class="row pb-4">
+                    <div class="col-lg-3 col-md-6  text-center">
+                        <img class=" sec-popu-img" src="images/pu-2.png" alt="">
+                    </div>
+                    <div class="col-lg-9 col-md-6 sec-popl-d">
+                        <div class="row ">
+                            <div class="col-lg-9">
+                                <p class="ser-pou-p1">Pre Bridal Makeup</p>
+                            </div>
+                            <div class="col-lg-3 sec-popl-d">
+                                <p class="ser-pou-p2">₹ 800.00</p>
+                            </div>
+                        </div>
+                        <p class="sec-pop-pp3">In nec faucibus sem, eu accumsan massa</p>
+                    </div>
+                </div>
+                <!-- 3 -->
+                <div class="row pb-4">
+                    <div class="col-lg-3 col-md-6  text-center">
+                        <img class=" sec-popu-img" src="images/pu-3.png" alt="">
+                    </div>
+                    <div class="col-lg-9 col-md-6 sec-popl-d">
+                        <div class="row ">
+                            <div class="col-lg-9">
+                                <p class="ser-pou-p1">Pedicure</p>
+                            </div>
+                            <div class="col-lg-3 sec-popl-d">
+                                <p class="ser-pou-p2">₹ 800.00</p>
+                            </div>
+                        </div>
+                        <p class="sec-pop-pp3">In nec faucibus sem, eu accumsan massa</p>
+                    </div>
+                </div>
+                <!-- 4 -->
+                <div class="row pb-4">
+                    <div class="col-lg-3 col-md-6  text-center">
+                        <img class=" sec-popu-img" src="images/pu-4.png" alt="">
+                    </div>
+                    <div class="col-lg-9 col-md-6  sec-popl-d">
+                        <div class="row ">
+                            <div class="col-lg-9">
+                                <p class="ser-pou-p1">Regular Manicure</p>
+                            </div>
+                            <div class="col-lg-3 sec-popl-d">
+                                <p class="ser-pou-p2">₹ 800.00</p>
+                            </div>
+                        </div>
+                        <p class="sec-pop-pp3">In nec faucibus sem, eu accumsan massa</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <!-- 1 -->
+                <div class="row pb-4">
+                    <div class="col-lg-3 col-md-6  text-center">
+                        <img class=" sec-popu-img" src="images/pu-5.png" alt="">
+                    </div>
+                    <div class="col-lg-9 col-md-6  sec-popl-d">
+                        <div class="row ">
+                            <div class="col-lg-9">
+                                <p class="ser-pou-p1">Party Makeup</p>
+                            </div>
+                            <div class="col-lg-3 sec-popl-d">
+                                <p class="ser-pou-p2">₹ 800.00</p>
+                            </div>
+                        </div>
+                        <p class="sec-pop-pp3">In nec faucibus sem, eu accumsan massa</p>
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div class="row pb-4">
+                    <div class="col-lg-3 col-md-6  text-center">
+                        <img class=" sec-popu-img" src="images/pu-6.png" alt="">
+                    </div>
+                    <div class="col-lg-9 col-md-6 sec-popl-d">
+                        <div class="row ">
+                            <div class="col-lg-9">
+                                <p class="ser-pou-p1">Bridal Package</p>
+                            </div>
+                            <div class="col-lg-3 sec-popl-d">
+                                <p class="ser-pou-p2">₹ 800.00</p>
+                            </div>
+                        </div>
+                        <p class="sec-pop-pp3">In nec faucibus sem, eu accumsan massa</p>
+                    </div>
+                </div>
+                <!-- 3 -->
+                <div class="row pb-4">
+                    <div class="col-lg-3 col-md-6  text-center">
+                        <img class=" sec-popu-img" src="images/pu-8.png" alt="">
+                    </div>
+                    <div class="col-lg-9 col-md-6 sec-popl-d">
+                        <div class="row ">
+                            <div class="col-lg-9">
+                                <p class="ser-pou-p1">Face Bleach & D-Tan</p>
+                            </div>
+                            <div class="col-lg-3 sec-popl-d">
+                                <p class="ser-pou-p2">₹ 800.00</p>
+                            </div>
+                        </div>
+                        <p class="sec-pop-pp3">In nec faucibus sem, eu accumsan massa</p>
+                    </div>
+                </div>
+                <!-- 4 -->
+                <div class="row pb-4">
+                    <div class="col-lg-3 col-md-6  text-center">
+                        <img class=" sec-popu-img" src="images/pu-7.png" alt="">
+                    </div>
+                    <div class="col-lg-9 col-md-6 sec-popl-d">
+                        <div class="row ">
+                            <div class="col-lg-9">
+                                <p class="ser-pou-p1">Hair Treatment</p>
+                            </div>
+                            <div class="col-lg-3 sec-popl-d">
+                                <p class="ser-pou-p2">₹ 800.00</p>
+                            </div>
+                        </div>
+                        <p class="sec-pop-pp3">In nec faucibus sem, eu accumsan massa</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- video -->
+    <div class="container sec-ser-padin pt-5 pb-5">
+        <video width="100%" height="634"   poster="/images/video-img.png" controls>
+            <source src="videos/fab-video.mp4" type="video/mp4">
+    </div>
+
+    <!-- Testimonials -->
+    <div class="container">
+        <h2 class="sec-word-h">Testimonials</h2>
+        <h3 class="sec-word-h2">Words of Worth</h3>
+
+        <section class="testimonial text-center">
+            <div class="container">
+                <div id="testimonial4"
+                    class="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x"
+                    data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
+
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <div class="testimonial4_slide">
+                                <p>Maecenas ultricies felis sit amet libero scelerisque, ut eleifend leo mattis. Aliquam
+                                    porta facilisis metus. Pellentesque habitant morbi tristique senectus et netus et
+                                    malesuada fames ac turpis egestas. Aliquam id. </p>
+                                <img src="images/Testimonials-1.png" class="img-circle img-responsive" />
+                                <h4>Ritu Sharma</h4>
+                                <p class="m-0">Manager</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="testimonial4_slide">
+                                <p>Maecenas ultricies felis sit amet libero scelerisque, ut eleifend leo mattis. Aliquam
+                                    porta facilisis metus. Pellentesque habitant morbi tristique senectus et netus et
+                                    malesuada fames ac turpis egestas. Aliquam id. </p>
+                                <img src="images/Testimonials-1.png" class="img-circle img-responsive" />
+                                <h4>Ritu Sharma</h4>
+                                <p class="m-0">Manager</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="testimonial4_slide">
+                                <p>Maecenas ultricies felis sit amet libero scelerisque, ut eleifend leo mattis. Aliquam
+                                    porta facilisis metus. Pellentesque habitant morbi tristique senectus et netus et
+                                    malesuada fames ac turpis egestas. Aliquam id. </p>
+                                <img src="images/Testimonials-1.png" class="img-circle img-responsive" />
+                                <h4>Ritu Sharma</h4>
+                                <p class="m-0">Manager</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#testimonial4" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#testimonial4" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- blog -->
+    <div class="container-fluid sec-acad-bg">
+        <div class="container">
+            <h2 class="sec-word-h">Blog</h2>
+            <h3 class="sec-word-h2">Recent Articles</h3>
+
+            <!-- blog-2 -->
+            <div class="container ">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="item">
+                            <a href="which-serum-is-best-for-hair.html">
+                            <img class="w-100  sec-blog-img" src="images/blog-1.png" alt="">
+                            <div class=" pt-2">
+                                <a href="which-serum-is-best-for-hair.html" class="btn sec-menu-btn-blog  my-2 my-sm-0" type="submit">Hair Treatment</a>
+                            </div>
+                            <h3 class="sec-bol-h">Which Serum is Best for Hair?</h3>
+                        </a>
+                            <p class="sec-date-p">March 2, 2023</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="item">
+                            <a href="best-hair-cuts-for-curly-hair.html">
+                            <img class="w-100  sec-blog-img" src="images/blog-2.jpg" alt="">
+                            <div class=" pt-2">
+                                <a href="best-hair-cuts-for-curly-hair.html" class="btn sec-menu-btn-blog   my-2 my-sm-0" type="submit">Hair cuts</a>
+                            </div>
+                            <h3 class="sec-bol-h">Best Hair Cuts for Curly Hair</h3>
+                        </a>
+                            <p class="sec-date-p">March 2, 2023</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="item">
+                            <a href="best-professional-shampoo-and-conditioner..html">
+                            <img class="w-100  sec-blog-img" src="images/blog-3.jpg" alt="">
+                            <div class=" pt-2">
+                                <a href="best-professional-shampoo-and-conditioner..html" class="btn sec-menu-btn-blog   my-2 my-sm-0" type="submit">Hair Wash         
+                                </a>
+                            </div>
+                            <h3 class="sec-bol-h">Best professional shampoo and conditioner.</h3>
+                        </a>
+                            <p class="sec-date-p">March 2, 2023</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="item">
+                            <a href="benefits-of-facial.html">
+                            <img class="w-100  sec-blog-img" src="images/blog-4.jpg" alt="">
+                            <div class=" pt-2">
+                                <a href="benefits-of-facial.html" class="btn sec-menu-btn-blog   my-2 my-sm-0" type="submit">Facial</a>
+                            </div>
+                            <h3 class="sec-bol-h">Benefits of facial.</h3>
+                        </a>
+                            <p class="sec-date-p">March 2, 2023</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <div class="container pt-5 pb-5">
+            <div class="row">
+                <div class="col-lg-5">
+                    <h1 class="footer-subsc">Subscribe to<br>
+                        Our Newsletter</h1>
+                </div>
+                <div class="col-lg-7">
+                    <div class="footer-formwrap">
+                        <form class="text-center">
+                            <div class="form-group p-0">
+                                <input type="email" class="form-control  " id="exampleInputEmail12"
+                                    aria-describedby="emailHelp" placeholder="Enter Your Email Address..." required>
+                            </div>
+                        </form>
+                        <div class="sec-btn-what2">
+                            <a href="#" class="sec-but-4">Subscribe <span class="pl-3"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid  sec-footer-img">
+            <div class="container text-center">
+                <a href="index.html"> <img class="sec-logo-footer" src="images/footer-logo.png" alt=""></a>
+
+                <p class="sec-foot-p">Mauris eget velit mauris. Suspendisse nec odio nec turpis malesuadaM<br>
+                    vestibulum at vitae eros proin in ligula sed.</p>
+                <div class="pt-3">
+                    <ul id="sec-footer-menu" class="">
+                        <li class=" nav-item pl-2 pt-2">
+                            <a class="nav-link text-light  " href="about.html">About </a>
+                        </li>
+                        <li class="nav-item pl-2 pt-2">
+                            <a class="nav-link text-light " href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item pl-2 pt-2">
+                            <a class="nav-link text-light  " href="franchise.html">Franchise</a>
+                        </li>
+                        <li class="nav-item pl-2 pt-2 ">
+                            <a class="nav-link text-light " href="academy.html">Academy</a>
+                        </li>
+                        <li class="nav-item pl-2 pt-2">
+                            <a class="nav-link text-light  " href="career.html">Career</a>
+                        </li>
+                        <li class="nav-item pl-2 pt-2">
+                            <a class="nav-link text-light " href="gift-card.html">Gift Card</a>
+                        </li>
+                        <li class="nav-item pl-2 pt-2">
+                            <a class="nav-link text-light " href="contacts.html">Contacts</a>
+                        </li>
+                        <li class="nav-item  pt-2">
+                            <a class="nav-link text-light " href="offers.html">offers</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <p class="text-center text-light pt-4 mb-0"><a href="tel:+91 9535758282" class="sec-foot-c">+91 95357
+                        58282
+                    </a></p>
+
+                <p class="text-center m-0"><a href="mailto:Jbagroup2023@gmail.com"
+                        class="sec-foot-c">Jbagroup2023@gmail.com</a></p>
+
+                <p class="text-center"><a href="https://goo.gl/maps/vfbhiSqfZ6MJpodB9" target="_blank"
+                        class="sec-foot-c">No-12/1a,100 Feet
+                        Road, Banaswadi, Bangalore-560043
+                    </a></p>
+
+
+                <div class="pt-4 pb-4 text-center">
+                    <a href="https://www.facebook.com/Fabulous.Salon.India/" target="_blank"
+                        class="text-light sec-icon pl-4"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/fabulous.salon.india/" target="_blank"
+                        class="text-light sec-icon pl-4"><i class="fa-brands fa-instagram"></i></a>
+                    <!-- <a href="#" class="text-light sec-icon pl-4"><i class="fa-brands fa-twitter"></i></a> -->
+                </div>
+
+                <div class="sec-fooer-border">
+                    <div class=" pt-4 ">
+                        <p class=" sec-foot-p">Copyright © 2023. All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+        integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+
+    <script>
+
+        $('.sec-slid.owl-carousel ').owlCarousel({
+            loop: false,
+            margin: 10,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1,
+
+                },
+                600: {
+                    items: 3,
+
+                },
+                1000: {
+                    items: 4,
+                }
+            }
+        })
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1,
+
+                },
+                600: {
+                    items: 3,
+
+                },
+                1000: {
+                    items: 4,
+                }
+            }
+        })
+    </script>
+
+    <script>
+        $('.counter-count').each(function () {
+            $(this).prop('Counter', 0).animate({
+                Counter: $(this).text()
+            }, {
+
+                //chnage count up speed here
+                duration: 4000,
+                easing: 'swing',
+                step: function (now) {
+                    $(this).text(Math.ceil(now));
+                }
+            });
+        });
+
+
+    </script>
+
+
+</body>
+
+</html>

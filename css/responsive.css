@@ -1,0 +1,673 @@
+
+/* --------------1393------------ */
+@media only screen and (max-width: 1393px) {
+    .sec-displ-li {
+        display: block !important;
+    }
+
+    li.nav-item.pl-2.pr-2.pt-1.sec-displ-li {
+        display: none !important;
+    }
+
+    a.nav-link.text-light {
+        font-family: 'Nunito';
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 81%;
+    }
+}
+
+
+/* -------1200--------- */
+
+@media (min-width: 1200px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1500px !important;
+    }
+
+}
+
+
+/* -------------1024------------- */
+@media only screen and (max-width: 1024px) {
+    .sec-displ-li {
+        display: none !important;
+    }
+
+    a.nav-link.text-light {
+        font-family: 'Nunito';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 81%;
+    }
+
+    .sec-logo222 {
+        margin-bottom: -44px;
+        width: 245px;
+    }
+
+    .navbar-dark .navbar-brand {
+        width: 26% !important;
+    }
+
+    .sec-hero-img {
+        padding: 60px 30px;
+    }
+
+    .sec-hero-tex {
+        font-size: 79px;
+        line-height: 74px;
+    }
+
+    .sec-hero-tex2 {
+        font-size: 20px;
+    }
+
+    a.btn.sec-menu-btn.my-2.my-sm-0 {
+        padding: 10px 10px;
+    }
+
+
+    .sec-h-creat {
+        font-size: 39px;
+        line-height: 46px;
+    }
+
+    .counter-count {
+        font-size: 48px;
+    }
+
+    .sec-crea-img {
+        padding: 40px 0px;
+    }
+
+    .services-img h1,
+    .services-img2 h1,
+    .services-img3 h1 {
+        font-size: 67px;
+        line-height: 90px;
+    }
+
+    .services-img h3,
+    .services-img2 h3,
+    .services-img3 h3 {
+        font-size: 28px;
+    }
+
+    .sec-h-acd {
+        font-size: 55px;
+    }
+
+    .sec-word-h {
+        font-size: 34px;
+        line-height: 44px;
+    }
+
+    .sec-word-h2 {
+        font-size: 39px;
+    }
+
+    .sec-galler-img,
+    .sec-world-bg {
+        padding-top: 30px;
+    }
+
+    .ser-pou-p1 {
+        font-size: 28px;
+    }
+
+    .ser-pou-p2 {
+        font-size: 14px;
+    }
+
+    .sec-pop-pp3 {
+        font-size: 16px;
+    }
+
+    .ser-pou-p1::before {
+        display: none;
+    }
+
+    .testimonial4_slide p {
+        font-size: 25px;
+    }
+
+    .sec-blog-img {
+        height: auto;
+    }
+
+    .sec-bol-h {
+        font-size: 23px;
+    }
+
+    .footer-formwrap .form-group.p-0 {
+        margin: 0px;
+        width: auto !important;
+    }
+
+    .footer-subsc {
+        font-size: 44px;
+    }
+
+    .sec-about-bgg {
+        padding: 0px 0px !important;
+        height: auto;
+    }
+
+    .ab-sec-p2 {
+        font-size: 50px;
+        line-height: 62px;
+    }
+
+    .sec-come-h {
+        font-size: 50px;
+        line-height: 65px;
+        padding: 72px 0px 50px 0px;
+    }
+
+    .sec-ser-hh {
+        font-size: 30px;
+    }
+
+    .sec-sev-book-h {
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 367.5%;
+        color: #000000;
+        margin: 0;
+    }
+
+    .sec-menu-btn22 {
+        padding: 10px 25px;
+    }
+
+    .sec-next-img {
+        width: 100%;
+    }
+
+    .sec-will-bg {
+        padding: 0px 0px;
+    }
+
+    .sec-will-hfor {
+        font-size: 60px;
+        line-height: 70px;
+        padding-bottom: 0px;
+    }
+    .sec-will-bg2 {
+        padding-bottom: 0px;
+    }
+    .sec-wil-h {
+        font-size: 20px;
+    }
+
+    .sec-padi-wil {
+        padding: 44px 37px 0px 37px;
+        height: 361px;
+    }
+
+    .sec-wil-p2 {
+        font-size: 16px;
+    }
+
+    .sec-does-h {
+        font-size: 30px;
+    }
+
+    .sec-does-p {
+        font-size: 18px;
+    }
+
+    .sec-usp-pp {
+        font-size: 20px;
+    }
+
+    .shadow.p-5.mb-5.bg-body.rounded {
+        padding: 15px !important;
+    }
+
+    .sec-slider-pp {
+        font-size: 16px;
+    }
+
+    .sec-slider-margin-pp {
+        margin-left: -46px;
+    }
+
+    .nav-pills .nav-link,
+    .nav-pills .show>.nav-link {
+        font-size: 16px !important;
+        line-height: 19px !important;
+    }
+
+    .sec-you-h {
+        font-size: 63px;
+    }
+
+    .sec-you-p {
+        font-size: 20px;
+    }
+
+    .sec-dil-h {
+        font-size: 90px;
+    }
+
+    .sec-acde-bgg {
+        padding: 0px 0px;
+    }
+
+    .sec-contact-bg {
+        padding: 65px 0px 330px 0px;
+    }
+
+    .dec-ppp-off {
+        padding: 50px !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------767------------ */
+@media only screen and (max-width: 767px) {
+
+    .sec-logo222 {
+        margin-bottom: 0px;
+        width: 100%;
+    }
+
+    nav.navbar.navbar-expand-lg.navbar-dark.d-flex.justify-content {
+        padding: 0px !important;
+    }
+
+    .navbar-dark .navbar-brand {
+        width: 66% !important;
+    }
+
+    br {
+        display: none;
+    }
+
+    .sec-hero-tex {
+        font-size: 47px;
+        line-height: 52px;
+    }
+
+    .sec-hero-img {
+        padding: 30px 17px;
+    }
+
+    .sec-book-hero {
+        text-align: center !important;
+        padding: 0 !important;
+    }
+
+    .sec-hero-tex2 {
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    .sec-h-creat {
+        font-size: 28px;
+        line-height: 37px;
+    }
+
+    .counter.pt-4 {
+        padding: 0 !important;
+    }
+
+    .sec-counter-p {
+        padding-bottom: 10px;
+    }
+
+    .sec-crea-img {
+        padding: 25px 0px;
+    }
+
+    .sec-ser-padin {
+        padding: 10px !important;
+    }
+
+    .sec-servi-img {
+        padding-bottom: 30px;
+    }
+
+    .services-img,
+    .services-img2,
+    .services-img3 {
+        padding: 50px 20px;
+    }
+
+    .sec-h-acd {
+        font-size: 32px;
+    }
+
+    .sec-word-h {
+        font-size: 26px;
+        line-height: 38px;
+    }
+
+    .sec-word-h2 {
+        font-size: 31px;
+    }
+
+    .sec-galler-img,
+    .sec-world-bg {
+        padding-top: 15px;
+    }
+
+    .sec-h-creat {
+        font-size: 40px;
+        line-height: 40px;
+        padding-bottom: 15px;
+    }
+
+    .services-img:hover,
+    .services-img2:hover,
+    .services-img3:hover {
+        padding: 50px 20px;
+    }
+
+    .ser-pou-p1 {
+        font-size: 35px;
+        margin: 0;
+    }
+
+    .ser-pou-p2 {
+        font-size: 20px;
+        margin: 0;
+    }
+
+    a.btn.sec-menu-btn.my-2.my-sm-0 {
+        padding: 14px 20px;
+    }
+
+    .sec-pop-pp3 {
+        font-size: 18px;
+    }
+
+    .sec-popl-d {
+        text-align: center !important;
+    }
+
+    .sec-word-h {
+        font-size: 27px;
+        line-height: 38px;
+    }
+
+    .sec-word-h2 {
+        font-size: 33px;
+        padding: 0;
+    }
+
+    a.carousel-control-prev,
+    a.carousel-control-next {
+        display: none;
+    }
+
+    .testimonial4_slide {
+        width: 100%;
+        margin: 0 !important;
+    }
+
+    .testimonial4_slide p {
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .sec-acad-bg {
+        padding: 30px 0px;
+    }
+
+    .footer-subsc {
+        font-size: 38px;
+    }
+
+    .footer-formwrap .sec-but-4 {
+        padding: 15px 15px;
+    }
+
+    .sec-foot-c {
+        font-size: 20px;
+        line-height: 180%;
+    }
+
+    .sec-foot-p {
+        font-size: 17px;
+        padding-top: 30px;
+    }
+
+    .sec-footer-img {
+        padding: 30px 0px;
+    }
+
+    .sec-logo-footer {
+        width: 100%;
+    }
+
+    #sec-footer-menu {
+        display: block;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .sec-about-bgg22 {
+        padding: 40px 10px;
+        height: auto;
+    }
+
+    .ab-sec-p2 {
+        font-size: 42px;
+        line-height: 51px;
+    }
+
+    .sec-tex-p {
+        font-size: 23px;
+    }
+
+    .about-mob-ppp {
+        padding: 20px;
+    }
+
+    .sec-found-img {
+        width: 100%;
+    }
+
+    .sec-founders-bg {
+        padding: 40px 0px 40px 0px;
+    }
+
+    .sec-found-h {
+        font-size: 65px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .sec-found-name {
+        font-size: 26px;
+    }
+
+    .sec-val-bg {
+        padding: 40px 0px;
+    }
+
+    .sec-val-pp {
+        font-size: 28px;
+    }
+
+    .sec-val-deap {
+        padding: 20px 0px;
+    }
+
+    .sec-next-bg {
+        padding: 40px 10px 62px 10px;
+    }
+
+    .sec-nex-h {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .sec-next-ppp {
+        font-size: 19px;
+        width: 100%;
+        padding-top: 22px;
+        margin: auto;
+    }
+
+    .sec-come-h {
+        font-size: 32px;
+        line-height: 40px;
+        padding: 50px 0px 50px 0px;
+    }
+
+    .shadow.p-5.mb-5.bg-white.rounded {
+        margin: 0 !important;
+        padding: 20px !important;
+    }
+
+    .sec-ser-hh {
+        font-size: 25px;
+    }
+
+    .sec-sev-book-h {
+        font-size: 17px;
+        line-height: 0.5%;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .sec-menu-btn22 {
+        padding: 9px 15px;
+    }
+
+    .sec-erv-book {
+        padding: 20px 0px;
+    }
+
+    .sec-cent-c {
+        text-align: center;
+    }
+
+    .sec-fran-bgg {
+        padding: 20px 0px;
+    }
+
+    .sec-will-hfor {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .sec-padi-wil {
+        padding: 30px 30px  29px 32px;
+        height: auto;
+        margin: 9px 0px;
+    }
+    .sec-next-margin {
+        margin-top: -47px;
+        position: relative;
+    }
+    .sec-next-bg2 {
+        background: #F5F5F5;
+        padding: 0px;
+    }
+    .sec-slider-margin-pp {
+        margin-left: 0px;
+    }
+    .sec-usp-bgg {
+        background: #F7E2DA;
+        padding: 40px 0px;
+    }
+    .secall-ppp {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .sec-you-h {
+        font-size: 40px;
+    }
+    .sed-dil-img img {
+        width: 100%;
+    }
+    .sec-dil-h {
+        font-size: 43px;
+        line-height: 54px;
+    }
+    .sec-dil-p {
+        font-weight: 400;
+        font-size: 20px;
+    }
+    .sec-caree-hh {
+        font-size: 54px;
+        line-height: 64px;
+    }
+    .sec-crea-bttn{
+        font-size: 11px !important;
+    }
+    .sec-contact-bg {
+        padding: 65px 0px 60px 0px;
+    }
+    .sec-drop-h {
+        font-size: 47px;
+        line-height: 60px;
+    }
+    .sec-drop-p {
+        font-size: 22px;
+    }
+    .sec-contact-form {
+        width: 100%;
+        margin: auto;
+    }
+    .sec-ifram-ff {
+        width: 100%;
+        height: 250px;
+    } 
+    .dec-ppp-off {
+        padding: 50px 10px 20px 10px !important;
+    }
+    .sec-offers-h {
+        font-size: 46px;
+    }
+    .sec-next-ppp2 {
+        width: 100%;
+        padding-left: 0px;
+    
+    }
+    
+    .sec-next-ppp22 {
+        padding-left:0px;
+    }
+}
+
+
+
+
+
+
+
+

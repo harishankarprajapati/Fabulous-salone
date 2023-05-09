@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <!-- Nunito -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Cormorant -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cousine:ital,wght@0,400;0,700;1,400&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Lobster -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cousine:ital,wght@0,400;0,700;1,400&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lobster&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link rel="icon" href="images/header-logo.png">
+    <title>Fabulous Salone You Imagine We Create</title>
+</head>
+
+<body>
+    <!-- header- start -->
+    <div class="container-fluid  sec-bg-header22 ">
+        <div class="container">
+            <nav class=" navbar navbar-expand-lg navbar-dark d-flex justify-content">
+                <a class="navbar-brand" href="index.html"><img class=" sec-logo222  " src="images/header-logo.png"
+                        alt=""></a>
+                <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul id="menu-main-menu" class="navbar-nav ">
+                        <li class=" nav-item pl-2 pt-2">
+                            <a class="nav-link text-light  " href="about.html">About </a>
+                        </li>
+                        <li class="nav-item pl-2 pt-2">
+                            <a class="nav-link text-light " href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item pl-2 pt-2">
+                            <a class="nav-link text-light  " href="franchise.html">Franchise</a>
+                        </li>
+                        <li class="nav-item pl-2 pt-2 ">
+                            <a class="nav-link text-light " href="academy.html">Academy</a>
+                        </li>
+                        <li class="nav-item pl-2 pt-2">
+                            <a class="nav-link text-light  " href="career.html">Career</a>
+                        </li>
+                        <li class="nav-item pl-2 pt-2">
+                            <a class="nav-link text-light " href="gift-card.html">Gift Card</a>
+                        </li>
+                        <li class="nav-item pl-2 pt-2">
+                            <a class="nav-link text-light " href="contacts.html">Contacts</a>
+                        </li>
+                        <li class="nav-item  pt-2">
+                            <a class="nav-link text-light " href="offers.html">Offers</a>
+                        </li>
+                        <li class="nav-item pl-2 pr-2 pt-1  sec-displ-li">
+                            <div class=" text-center">
+                                <a href="https://www.facebook.com/Fabulous.Salon.India/" target="_blank"
+                                    class="text-light sec-icon pl-4"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="https://www.instagram.com/fabulous.salon.india/" target="_blank"
+                                    class="text-light sec-icon pl-4"><i class="fa-brands fa-instagram"></i></a>
+                                <!-- <a href="#" class="text-light sec-icon pl-4"><i class="fa-brands fa-twitter"></i></a> -->
+
+                            </div>
+                        </li>
+                        <li class=" sec-displ-li">
+                            <a href="https://app.13designstreet.com/fabulous_salon/qr/index.php?branch_id=UzN4eE9JUEUzaUltOERvTTJKVVNGUT09"
+                                target="_blank" class="btn sec-menu-btn  my-2 my-sm-0" type="submit">Book Appointment
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- header- end -->
+
+
+    <!-- About Fabulous -->
+    <div class="container-fluid  sec-next-bg">
+        <h1 class="sec-nex-h">Best professional shampoo and conditioner.</h1>
+    </div>
+
+    <div class="container-fluid pb-4  sec-next-bg2">
+        <div class="container">
+            <div class=" sec-next-margin">
+                <img class=" w-100 pb-5 sec-next-img mx-auto d-block" src="images/blog-3.jpg" alt=""></a>
+            </div>
+            <p class="sec-next-ppp2">Hair wash is vital for both men and women. But, how many of us use the right
+                product according to the hair type. This question may leave you surprised. We must have good knowledge
+                about what shampoo and conditioners we use! Fabulous Salon, one of the best salons in Bangalore offers the
+                best shampoos and conditioners. </p>
+            <p class="sec-next-ppp22">Things to consider before using a shampoo or conditioner!  </p>
+            <p class="sec-next-ppp2">Scalp type matters! </p>
+            <p class="sec-next-ppp2">
+                The scalp type may differ from person to person. Therefore, first, know which shampoo is suitable for
+                your scalp type and then buy one. </p>
+            <p class="sec-next-ppp2">It’s vital to use the right shampoo because the roots of your hair are seated deep
+                within the scalp. For example, if you have an oily scalp and dry hair, use a shampoo suitable for oily
+                scalp and a conditioner to moisturise the dry hair. </p>
+
+            <p class="sec-next-ppp22">Understand your hair type </p>
+            <p class="sec-next-ppp2">People with dry hair should use a shampoo that is packed with additional moisture
+                and conditioning properties. Generally, shampoos for dry hair contain extra oil and silicone. Always use
+                sulphate and paraben-free shampoo! <br>
+
+                If your hair is neither dry nor oil, use a shampoo that doesn’t contain many additives. Baby shampoos
+                are always recommended for people who are concerned about the everyday use of shampoo.<br>
+
+                For oily hair, one should use a shampoo that removes excess oil. Normal shampoos may not suit people
+                with oily hair as they don’t have many moisturizing ingredients. </p>
+           
+
+        </div>
+    </div>
+
+    <!-- Become Our Partner -->
+    <div class="container-fluid sec-dil-bg">
+        <div class="container">
+            <div class="sed-dil-img  text-center">
+                <img class="" src="images/Career-icon.png" alt="">
+            </div>
+            <h2 class="sec-dil-h">Join Our Team</h2>
+            <p class=" sec-dil-p ">Please send us an email telling us a bit about<br> yourself.Oh…and attach your
+                resume.
+            </p>
+            <!-- popup -->
+            <div class="container">
+                <div class=" mt-3 text-center">
+                    <button type="button" class="sec-dil-btn" data-toggle="modal" data-target="#theModal">
+                        Apply Now
+                    </button>
+                </div>
+
+                <div class="modal fade" id="theModal" tabindex="-1" role="dialog" aria-labelledby="theModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Apply Now</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body p-4">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Full Name</label>
+                                        <input type="text" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp" placeholder="Enter Name" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1">Phone Number</label>
+                                        <input type="number" class="form-control" id="exampleInputPassword1"
+                                            placeholder="Enter Number" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1">Email</label>
+                                        <input type="email" class="form-control" id="exampleInputPassword1"
+                                            placeholder="Enter Email" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Subject</label>
+                                        <input type="text" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp" placeholder="Subject" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlTextarea1">Message</label>
+                                        <textarea class="form-control form-control-lg mb-3" rows="3"
+                                            placeholder="Message" required></textarea>
+                                    </div>
+                                    <button type="submit" class="btn sec-menu-btn2">Send Message</button>
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- footer -->
+    <footer>
+        <div class="container pt-5 pb-5">
+            <div class="row">
+                <div class="col-lg-5">
+                    <h1 class="footer-subsc">Subscribe to<br>
+                        Our Newsletter</h1>
+                </div>
+                <div class="col-lg-7">
+                    <div class="footer-formwrap">
+                        <form class="text-center">
+                            <div class="form-group p-0">
+                                <input type="email" class="form-control  " id="exampleInputEmail12"
+                                    aria-describedby="emailHelp" placeholder="Enter Your Email Address..." required>
+                            </div>
+                        </form>
+                        <div class="sec-btn-what2">
+                            <a href="#" class="sec-but-4">Subscribe <span class="pl-3"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid  sec-footer-img">
+            <div class="container text-center">
+                <a href="index.html"> <img class="sec-logo-footer" src="images/footer-logo.png" alt=""></a>
+
+                <p class="sec-foot-p">Mauris eget velit mauris. Suspendisse nec odio nec turpis malesuadaM<br>
+                    vestibulum at vitae eros proin in ligula sed.</p>
+                <div class="pt-3">
+                    <ul id="sec-footer-menu" class="">
+                        <li class=" nav-item pl-2 pt-2">
+                            <a class="nav-link text-light  " href="about.html">About </a>
+                        </li>
+                        <li class="nav-item pl-2 pt-2">
+                            <a class="nav-link text-light " href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item pl-2 pt-2">
+                            <a class="nav-link text-light  " href="franchise.html">Franchise</a>
+                        </li>
+                        <li class="nav-item pl-2 pt-2 ">
+                            <a class="nav-link text-light " href="academy.html">Academy</a>
+                        </li>
+                        <li class="nav-item pl-2 pt-2">
+                            <a class="nav-link text-light  " href="career.html">Career</a>
+                        </li>
+                        <li class="nav-item pl-2 pt-2">
+                            <a class="nav-link text-light " href="gift-card.html">Gift Card</a>
+                        </li>
+                        <li class="nav-item pl-2 pt-2">
+                            <a class="nav-link text-light " href="contacts.html">Contacts</a>
+                        </li>
+                        <li class="nav-item  pt-2">
+                            <a class="nav-link text-light " href="offers.html">offers</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <p class="text-center text-light pt-4 mb-0"><a href="tel:+91 9535758282" class="sec-foot-c">+91 95357
+                        58282
+                    </a></p>
+
+                <p class="text-center m-0"><a href="mailto:Jbagroup2023@gmail.com"
+                        class="sec-foot-c">Jbagroup2023@gmail.com</a></p>
+
+                <p class="text-center"><a href="https://goo.gl/maps/vfbhiSqfZ6MJpodB9" target="_blank"
+                        class="sec-foot-c">No-12/1a,100 Feet
+                        Road, Banaswadi, Bangalore-560043
+                    </a></p>
+
+
+                <div class="pt-4 pb-4 text-center">
+                    <a href="https://www.facebook.com/Fabulous.Salon.India/" target="_blank"
+                        class="text-light sec-icon pl-4"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/fabulous.salon.india/" target="_blank"
+                        class="text-light sec-icon pl-4"><i class="fa-brands fa-instagram"></i></a>
+                    <!-- <a href="#" class="text-light sec-icon pl-4"><i class="fa-brands fa-twitter"></i></a> -->
+                </div>
+
+                <div class="sec-fooer-border">
+                    <div class=" pt-4 ">
+                        <p class=" sec-foot-p">Copyright © 2023. All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
