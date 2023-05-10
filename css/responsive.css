@@ -662,6 +662,9 @@
     .sec-next-ppp22 {
         padding-left:0px;
     }
+    .sec-usp-display{
+        display: block;
+    }
 }
 
 

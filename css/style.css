@@ -1378,3 +1378,31 @@ label {
     color: #000000;
     padding-left: 150px;
 }
+.sec-usp-display{
+    display: flex;
+}
+.sec-box-bb{
+    border-radius: 50% !important;
+    padding: 90px 10px !important;
+    width: 231px !important;
+    height: 220px !important;
+    background: linear-gradient(270deg, #85C226 0.84%, #DD127B 100%) !important;
+    border: 5px solid #fff;
+}
+.se-usp-p{
+    font-family: 'Nunito' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 25px !important;
+    line-height: 25px !important;
+    color: #fff !important;
+    text-align: center !important;
+    
+}
+
+.sec-box-bb:hover{
+    background: linear-gradient(270deg, #DD127B 0.84%, #85C226 100%) !important;
+}
+.sec-box-bb:hover p{
+    color: #fff !important  ;
+}
